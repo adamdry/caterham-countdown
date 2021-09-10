@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#container {
+    width: 100vw;
+}
+
+.banner-text {
+    color: white;
+    font-size: 30px;
+}
+
+#timer {
+    margin-left: 20px;
+    color: #71e033;
+}
+
+#top-banner {
+    background-image: url("../images/carbon-fibre-1.jpg");
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caterham-img {
+	width: 100%;
+}
+
+#bottom-banner {
+    background-image: url("../images/carbon-fibre-1.jpg");
+    width: 100vw;
+    height: 30px;
+}
+
+#main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
