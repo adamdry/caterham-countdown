@@ -3,20 +3,44 @@
     <head>
         <title>Caterham Countdown</title>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/slide-show.css">
+        <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/timer.js"></script>
-        <!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
+        <script src="js/slide-show.js"></script>
         <link rel="icon"
             type="image/png"
             href="images/favicon-32x32.png">
+
+        <script>
+            $(document).ready(function() {
+                slideShow.init()
+            })
+        </script>
     </head>
     <body>
         <div id="container">
             <div id="top-banner">
-                <p class="banner-text">How long until Keith and Ad's Caterham is ready?</p>
+                <p class="banner-text">Keith and Ad's Caterham countdown</p>
                 <p id="timer" class="banner-text"></p>
             </div>
             <div id="main-content">
-                <img id="caterham-img" src="images/caterham-1.png" />
+
+                <div class="caterham-img-container fade">
+                    <img src="images/caterham-1.png" class="caterham-img" />
+                </div>
+
+                <div class="caterham-img-container fade hide">
+                    <img src="images/caterham-2.png" class="caterham-img" />
+                </div>
+
+                <div class="caterham-img-container fade hide">
+                    <img src="images/caterham-3.png" class="caterham-img" />
+                </div>
+
+                <div class="caterham-img-container fade hide">
+                    <img src="images/caterham-4.png" class="caterham-img" />
+                </div>
+
             </div>
             <div id="bottom-banner" />
         </div>
